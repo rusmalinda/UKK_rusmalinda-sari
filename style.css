@@ -1,0 +1,163 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial,sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.logo h1 {
+    width: 130px;
+    height: auto;
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(241, 235, 177);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(153, 84, 84);
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.btn-order {
+    background-color: rgb(207, 198, 199);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* Hero section */
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.hero-content {
+    max-width: none;
+}
+
+.btn-primary {
+    background-color: brown;
+    color: beige;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* product section */
+#product h2 {
+    padding: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    text-align: center;
+    max-width: 30px;
+    margin: 20px;
+}
+
+.product-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: cadetblue;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 30px;
+}
+
+.testimonials img {
+    width: 10px;
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Contact section */
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form input
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: chocolate;
+    color: rgb(105, 207, 207);
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+#footer {
+
+}
+
+
+
+
